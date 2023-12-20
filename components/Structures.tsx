@@ -5,10 +5,8 @@ interface StructuresProps {
 }
 
 const Structures = ({data}: StructuresProps) => {
-  console.log(data.compound_names);
-
   return (
-    <div className="w-full flex justify-center flex-col md:flex-row gap-x-2 px-10">
+    <div className="w-full flex justify-center flex-col md:flex-row gap-x-2 md:px-10">
       {data?.compound_names?.map((compound_name: string, index: number) => (
         <div key={index} className="w-full md:w-[50%]  p-2 ">
           <iframe
