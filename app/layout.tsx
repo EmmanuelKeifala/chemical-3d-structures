@@ -16,7 +16,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          'min-h-screen  bg-gradient-to-r from-green-300 to-blue-300 via-purple-200  font-sans antialiased   background-animate',
+          'min-h-screen  bg-gradient-to-r from-teal-300 to-pink-100 via-purple-400 font-sans antialiased   background-animate',
           inter,
         )}>
         {children}
